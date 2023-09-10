@@ -1,0 +1,7 @@
+.page-content {
+    margin-left: 3rem; /* Sayfa içeriğini sağa kaydırmak için 0 veya negatif bir değer kullanabilirsiniz */
+    height: 100vh;
+    width: 200vh;
+    background-color: black;
+  }
+  
