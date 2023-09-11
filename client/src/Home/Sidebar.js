@@ -1,7 +1,7 @@
 import React from 'react'
 import 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+import '../Design/App.css'
 import { Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlateWheat, faBurger, faPizzaSlice, faBowlFood, faMugSaucer, faFireBurner, faDrumstickBite, faFish, faCakeCandles, faBeerMugEmpty, faCartShopping, faUserGear } from '@fortawesome/free-solid-svg-icons'
@@ -9,12 +9,25 @@ import { faPlateWheat, faBurger, faPizzaSlice, faBowlFood, faMugSaucer, faFireBu
 const Sidebar = ( {changePage, currentPage} ) => {
     return (
       <div className="d-flex flex-column flex-shrink-0 bg-light" style={{ width: '2.5rem', height: '0vh'}}>
-        <div className="d-block p-1 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only" >
-          <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className="rounded-circle" style={{ width: '2.5rem', height: 'auto'}}></img>
-          <span className="visually-hidden">Icon-only</span>
-        </div>
+        
+
         <ul className="nav nav-pills nav-flush flex-column mb-auto text-center">
-          
+        
+        <li className="nav-item">
+          <Button
+            aria-current="page"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            data-bs-original-title="GurmeLogo"
+            className={`nav-link p-1 link-dark text-decoration-none ${currentPage === 'GurmeLogo' ? 'active' : ''}`}
+            title="GurmeLogo"
+            onClick={() => changePage('GurmeLogo')}
+          >
+            <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className="rounded-circle" style={{ width: '2.5rem', height: 'auto'}}></img>
+          </Button>
+        </li>
+
+
         <li className="nav-item ">
           <Button
             aria-current="page"

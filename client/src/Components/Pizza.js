@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Design/App.css'
 
 function Pizza() {
   return (

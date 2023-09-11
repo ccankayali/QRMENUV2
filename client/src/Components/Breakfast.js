@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css'
+import '../Design/App.css'
 
 function Breakfast() {
   return (
