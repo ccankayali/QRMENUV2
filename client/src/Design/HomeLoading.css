@@ -1,0 +1,43 @@
+.log-screen {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    margin-left: 3rem; /* Sayfa içeriğini sağa kaydırmak için 0 veya negatif bir değer kullanabilirsiniz */
+    height: 100vh;
+    width: 200vh;
+    background-color: black;
+  }
+  
+  .log-logo {
+    width: 250px;
+    height: auto;
+    animation: fadeIn 1s ease-in-out;
+    text-align: center; /* Yazıyı ortalamak için */
+    margin-top: 10rem;
+}
+  
+  .log-text {
+    margin-top: 2.5rem;
+    font-family: 'Luxurious Roman', cursive;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .log-welcome {
+    animation: fadeIn 2.5s ease-in-out;
+    margin-left: 2.5rem;
+  }
+  
+  .log-p {
+    animation: fadeIn 3.5s ease-in-out;
+    margin-left: 1rem;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }

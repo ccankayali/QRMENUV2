@@ -1,7 +1,35 @@
+/*
+body {
+  font-family: 'Lemonada', cursive;
+}
+
+h1 {
+  font-family: 'Luxurious Roman', cursive;
+}
+
+.menu-category {
+  font-family: 'Poppins', sans-serif;
+}
+*/
+
+
 .page-content {
     margin-left: 3rem; /* Sayfa içeriğini sağa kaydırmak için 0 veya negatif bir değer kullanabilirsiniz */
     height: 100vh;
     width: 200vh;
     background-color: black;
   }
-  
+
+
+.after-effect {
+  animation: fadeIn 3.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}

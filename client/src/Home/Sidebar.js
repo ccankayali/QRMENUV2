@@ -8,8 +8,7 @@ import { faPlateWheat, faBurger, faPizzaSlice, faBowlFood, faMugSaucer, faFireBu
 
 const Sidebar = ( {changePage, currentPage} ) => {
     return (
-      <div className="d-flex flex-column flex-shrink-0 bg-light" style={{ width: '2.5rem', height: '0vh'}}>
-        
+      <div className="after-effect d-flex flex-column flex-shrink-0 bg-light" style={{ width: '2.5rem', height: '0vh'}}>
 
         <ul className="nav nav-pills nav-flush flex-column mb-auto text-center">
         

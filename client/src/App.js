@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "./Home/Sidebar";
 import Loading from "./Home/Loading";
+
+import Home from "./Components/Home";
 import Breakfast from "./Components/Breakfast";
 import Burger from "./Components/Burger";
 import Pizza from "./Components/Pizza";
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Breakfast");
+  const [currentPage, setCurrentPage] = useState("Home");
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -30,6 +32,7 @@ function App() {
         <>
           <Sidebar changePage={changePage} currentPage={currentPage} />
           <div className="content">
+            {currentPage === "Home" && <Home />}
             {currentPage === "Breakfast" && <Breakfast />}
             {currentPage === "Burger" && <Burger />}
             {currentPage === "Pizza" && <Pizza />}

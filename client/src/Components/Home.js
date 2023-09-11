@@ -1,11 +1,17 @@
 import React from 'react';
-import '../Design/Loading.css'
+import '../Design/HomeLoading.css'
 
 const Loading = () => {
   return (
-    <div className="home-page">
-      <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className='home-page-logo' />
-      <p className='home-page-text'></p>
+    <div className="log-screen">
+      <div className="all-log-screen">
+        <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className='log-logo' />
+        <div className='log-text'>
+          <h1 className='log-welcome'>Hoş Geldiniz!</h1>
+          <p className='log-p'>Sol taraftan menü seçebilirsiniz</p>
+        </div>
+      </div>
+        
     </div>
   );
 };
