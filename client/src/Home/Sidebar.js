@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import '../Design/App.css'
 import { Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlateWheat, faBurger, faPizzaSlice, faBowlFood, faMugSaucer, faFireBurner, faDrumstickBite, faFish, faCakeCandles, faBeerMugEmpty, faCartShopping, faUserGear } from '@fortawesome/free-solid-svg-icons'
+import { faPlateWheat, faBurger, faPizzaSlice, faBowlFood, faMugSaucer, faFireBurner, faDrumstickBite, faBacon, faCakeCandles, faBeerMugEmpty, faMugHot, faCartShopping, faUserGear } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = ( {changePage, currentPage} ) => {
     return (
@@ -17,10 +17,10 @@ const Sidebar = ( {changePage, currentPage} ) => {
             aria-current="page"
             data-bs-toggle="tooltip"
             data-bs-placement="right"
-            data-bs-original-title="GurmeLogo"
-            className={`nav-link p-1 link-dark text-decoration-none ${currentPage === 'GurmeLogo' ? 'active' : ''}`}
-            title="GurmeLogo"
-            onClick={() => changePage('GurmeLogo')}
+            data-bs-original-title="Home"
+            className={`nav-link p-1 link-dark text-decoration-none ${currentPage === 'Home' ? 'active' : ''}`}
+            title="Home"
+            onClick={() => changePage('Home')}
           >
             <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className="rounded-circle" style={{ width: '2.5rem', height: 'auto'}}></img>
           </Button>
@@ -70,14 +70,15 @@ const Sidebar = ( {changePage, currentPage} ) => {
             <Button
             data-bs-toggle="tooltip"
             data-bs-placement="right"
-            data-bs-original-title="bbq"
-            className={`nav-link py-3 border-bottom ${currentPage === 'bbq' ? 'active' : ''}`}
-            title="bbq"
-            onClick={() => changePage('bbq')}
+            data-bs-original-title="Mangal"
+            className={`nav-link py-3 border-bottom ${currentPage === 'Mangal' ? 'active' : ''}`}
+            title="Mangal"
+            onClick={() => changePage('Mangal')}
             style={{ paddingRight: '0.8rem'}}>
               <FontAwesomeIcon icon={faFireBurner} />
             </Button>
           </li>
+
           <li>
             <Button
             data-bs-toggle="tooltip"
@@ -93,12 +94,12 @@ const Sidebar = ( {changePage, currentPage} ) => {
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
-            data-bs-original-title="Fish"
-            className={`nav-link py-3 border-bottom ${currentPage === 'Fish' ? 'active' : ''}`}
-            title="Fish"
-            onClick={() => changePage('Fish')}
+            data-bs-original-title="Beyaz"
+            className={`nav-link py-3 border-bottom ${currentPage === 'Beyaz' ? 'active' : ''}`}
+            title="Beyaz"
+            onClick={() => changePage('Beyaz')}
             style={{ paddingRight: '0.9rem'}}>
-              <FontAwesomeIcon icon={faFish} />
+              <FontAwesomeIcon icon={faBacon} />
             </Button>
           </li>
           <li>
@@ -128,10 +129,10 @@ const Sidebar = ( {changePage, currentPage} ) => {
             <Button
             data-bs-toggle="tooltip"
             data-bs-placement="right"
-            data-bs-original-title="Coffe"
-            className={`nav-link py-3 border-bottom ${currentPage === 'Coffe' ? 'active' : ''}`}
-            title="Coffe"
-            onClick={() => changePage('Coffe')}
+            data-bs-original-title="Coffee"
+            className={`nav-link py-3 border-bottom ${currentPage === 'Coffee' ? 'active' : ''}`}
+            title="Coffee"
+            onClick={() => changePage('Coffee')}
             style={{ paddingRight: '0.8rem'}}>
               <FontAwesomeIcon icon={faMugSaucer} />
             </Button>
@@ -140,14 +141,25 @@ const Sidebar = ( {changePage, currentPage} ) => {
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
-            data-bs-original-title="Drink"
-            className={`nav-link py-3 border-bottom ${currentPage === 'Drink' ? 'active' : ''}`}
-            title="Drink"
-            onClick={() => changePage('Drink')}>
-              <FontAwesomeIcon icon={faBeerMugEmpty} />
+            data-bs-original-title="Hot"
+            className={`nav-link py-3 border-bottom ${currentPage === 'Hot' ? 'active' : ''}`}
+            title="Hot"
+            onClick={() => changePage('Hot')}>
+              <FontAwesomeIcon icon={faMugHot} />
             </Button>
           </li>
           <li>
+            <Button 
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            data-bs-original-title="Cold"
+            className={`nav-link py-3 border-bottom ${currentPage === 'Cold' ? 'active' : ''}`}
+            title="Cold"
+            onClick={() => changePage('Cold')}>
+              <FontAwesomeIcon icon={faBeerMugEmpty} />
+            </Button>
+          </li>
+          {/* <li>
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -170,7 +182,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
             style={{ paddingRight: '0.8rem'}}>
               <FontAwesomeIcon icon={faUserGear} />
             </Button>
-          </li> 
+          </li>  */}
         </ul>
       </div>
     );

@@ -3,7 +3,7 @@ export const categories = [
       name: 'Kahvaltı',
       sub_message: null,
       sub_category: ['Çorbalar', 'Aperatifler', 'Yumurtalar'],
-      image: 'https://iili.io/J90YHNI.webp',
+      image: 'https://iili.io/J9s0iZP.webp',
       bg: 'light',
       items: [
         {
@@ -55,7 +55,7 @@ export const categories = [
       name: 'Burger',
       sub_message: 'Çaylar İkramımızdır',
       sub_category: null,
-      image: 'https://iili.io/J90YQbS.webp',
+      image: 'https://iili.io/J9s1jUJ.webp',
       bg: 'dark',
       items: [
         {
@@ -99,7 +99,7 @@ export const categories = [
       name: 'Pizza',
       sub_message: 'Çaylar İkramımızdır',
       sub_category: null,
-      image: 'https://iili.io/J90aorJ.webp',
+      image: 'https://iili.io/J9s0Ln1.webp',
       bg: 'light',
       items: [
         {
@@ -154,18 +154,13 @@ export const categories = [
       ],
     },
     {
-      name: 'Mangal Ateşi',
+      name: 'Mangal',
       sub_message: 'Çaylar ve Salatalar İkramımızdır',
       sub_category: null,
-      image: 'https://iili.io/J90a5Xt.webp',
+      image: 'https://iili.io/J9sUjAN.jpg',
       bg: 'dark',
       items: [
-        {
-          name: 'Kasap Köfte',
-          price: 140,
-          sub_category: null,
-          description: '180gr kasap kıyma eti',
-        },
+        
         {
           name: 'Terbiyesiz Tavuk(Acısız)',
           price: 130,
@@ -178,12 +173,7 @@ export const categories = [
           sub_category: null,
           description: '200gr terbiyelenmiş acı soslu tavuk budu',
         },
-        {
-          name: 'Tavuk Kanat',
-          price: 140,
-          sub_category: null,
-          description: '200gr Tavuk kanat',
-        },
+        
         {
           name: 'Adana Kebap(Acılı)',
           price: 130,
@@ -209,12 +199,7 @@ export const categories = [
           description:
             'Yarım porsiyon kebap, yarım porsiyon patlıcanlı kebap',
         },
-        {
-          name: 'Ciğer',
-          price: 120,
-          sub_category: null,
-          description: '160gr kuzu ciğer',
-        },
+        
         {
           name: 'Patlıcanlı Kebap',
           price: 110,
@@ -233,20 +218,14 @@ export const categories = [
           sub_category: null,
           description: '200gr terbiyelenmiş soslu dana bonfile',
         },
-        {
-          name: 'Ali Nazik',
-          price: 140,
-          sub_category: null,
-          description:
-            'Közlenmiş patlıcan üzerine, terbiyelenmiş 200gr dana bonfile ile tereyağlı sos ',
-        },
+        
       ],
     },
     {
-      name: 'Kırmızı Et',
+      name: 'Kırmızı',
       sub_message: 'Çaylar ve Salatalar İkramımızdır',
       sub_category: null,
-      image: 'https://iili.io/J90a8kQ.webp',
+      image: 'https://iili.io/J9swqlI.webp',
       bg: 'light',
       items: [
         {
@@ -274,13 +253,38 @@ export const categories = [
           sub_category: null,
           description: '200gr doğranmış dana bonfile,',
         },
+        {
+          name: 'Ciğer',
+          price: 120,
+          sub_category: null,
+          description: '160gr kuzu ciğer',
+        },
+        {
+          name: 'Tavuk Kanat',
+          price: 140,
+          sub_category: null,
+          description: '200gr Tavuk kanat',
+        },
+        {
+          name: 'Ali Nazik',
+          price: 140,
+          sub_category: null,
+          description:
+            'Közlenmiş patlıcan üzerine, terbiyelenmiş 200gr dana bonfile ile tereyağlı sos ',
+        },
+        {
+          name: 'Kasap Köfte',
+          price: 140,
+          sub_category: null,
+          description: '180gr kasap kıyma eti',
+        },
       ],
     },
     {
       name: 'Salatalar',
       sub_message: 'Çaylar İkramımızdır',
       sub_category: null,
-      image: 'https://iili.io/J90aZYv.webp',
+      image: 'https://iili.io/J9srZaj.jpg',
       bg: 'dark',
       items: [
         {
@@ -318,13 +322,14 @@ export const categories = [
           description:
             '100gr ızgara fileto dana bonfile, akdeniz yeşilliği, iceberg marul, roka, salatalık, kiraz domates, zeytinyağı, balzamik sirke ve kekik',
         },
+        
       ],
     },
     {
-      name: 'Beyaz Et',
+      name: 'Beyaz',
       sub_message: 'Çaylar ve Salatalar İkramımızdır',
       sub_category: null,
-      image: 'https://iili.io/J90aDpp.webp',
+      image: 'https://iili.io/J9skSpt.webp',
       bg: 'light',
       items: [
         {
@@ -385,11 +390,11 @@ export const categories = [
     //   ],
     // },
     {
-      name: 'Tatlı ve Kampanyalar',
+      name: 'Tatlı',
       sub_message: null,
       sub_category: ['Tatlı', 'Kampanyalar'],
       image:
-        'https://iili.io/J90cUcG.webp',
+        'https://iili.io/J9sQb07.webp',
       bg: 'dark',
       items: [
         {
@@ -450,10 +455,10 @@ export const categories = [
       ],
     },
     {
-      name: 'Sıcak Kahveler',
+      name: 'Kahveler',
       sub_message: null,
       sub_category: ['Demleme Filtre Kahve', 'Türk Kahveleri'],
-      image: 'https://iili.io/J90cJGn.webp',
+      image: 'https://iili.io/J9sbpCx.webp',
       bg: 'light',
       items: [
         {
@@ -495,10 +500,10 @@ export const categories = [
       ],
     },
     {
-      name: 'Sıcak İçecekler',
+      name: 'Sıcak',
       sub_message: null,
       sub_category: ['Sıcak İçecekler', 'Bitki Çayları'],
-      image: 'https://iili.io/J90cKv4.webp',
+      image: 'https://iili.io/J9L9Ku9.webp',
       bg: 'dark',
       items: [
         {
@@ -558,10 +563,10 @@ export const categories = [
       ],
     },
     {
-      name: 'Soğuk İçecekler',
+      name: 'Soguk',
       sub_message: null,
       sub_category: null,
-      image: 'https://iili.io/J90cR8x.webp',
+      image: 'https://iili.io/J9LJ3Xe.webp',
       bg: 'light',
       items: [
         {
