@@ -33,3 +33,56 @@ h1 {
       opacity: 1;
   }
 }
+
+.page-div {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  width: 40rem;
+  height: 100vh;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-header {
+  margin-left: 6.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-image {
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 40rem;
+  margin-left: 0rem;
+}
+
+.page-element {
+  list-style-type: none;
+  font-size: 0.8rem;
+  margin-left: -1.5rem;
+  width: 23rem;
+}
+
+
+
+.page-item-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 0.1rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1.5rem;
+}
+
+.page-item-price {
+  font-family: 'Poppins', sans-serif;
+  white-space: nowrap; /* Uzun fiyatların satır sonuna geçmesini engeller */
+}
+
+.page-item-description{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem; 
+  margin-top: 0.5rem;
+}
