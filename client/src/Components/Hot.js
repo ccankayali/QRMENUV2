@@ -3,7 +3,7 @@ import '../Design/App.css'
 import { categories } from '../Database/data';
 
 function Hot() {
-    const breakfastCategory = categories.find(category => category.name === 'Sıcak');
+    const breakfastCategory = categories.find(category => category.name === 'Sıcak İçecekler');
     const breakfastItems = breakfastCategory ? breakfastCategory.items : [];
     const categoryName = breakfastCategory ? breakfastCategory.name : '';
     const categoryImage = breakfastCategory ? breakfastCategory.image : '';

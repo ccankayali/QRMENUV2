@@ -3,7 +3,7 @@ import '../Design/App.css'
 import { categories } from '../Database/data';
 
 function Desert() {
-    const breakfastCategory = categories.find(category => category.name === 'Tatlı');
+    const breakfastCategory = categories.find(category => category.name === 'Tatlılar');
     const breakfastItems = breakfastCategory ? breakfastCategory.items : [];
     const categoryName = breakfastCategory ? breakfastCategory.name : '';
     const categoryImage = breakfastCategory ? breakfastCategory.image : '';
