@@ -1,0 +1,673 @@
+/* sepet butonu ve admin butonu ayar çekilmeli*/
+
+/* BİG SEETİNGS */
+
+
+  @media (min-width: 501px) and (max-width: 600px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+    .page-image {
+        height: 100vh;
+        width: auto;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 60vh;
+        font-size: 3px;
+    }
+      .page-item-header {
+        font-size: 1.5rem;
+      }
+      .page-item-description {
+        font-size: 0.9rem;
+        margin-top: 0.1rem;
+      }
+  }
+
+  @media (min-width: 601px) and (max-width: 700px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+    .page-image {
+        height: 100vh;
+        width: 85vh;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 70vh;
+        font-size: 3px;
+    }
+      .page-item-header {
+        font-size: 1.5rem;
+      }
+      .page-item-description {
+        font-size: 0.9rem;
+        margin-top: 0.1rem;
+      }
+  }
+
+  @media (min-width: 701px) and (max-width: 800px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+    .page-image {
+        height: 100vh;
+        width: 85vh;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 80vh;
+        font-size: 3px;
+    }
+      .page-item-header {
+        font-size: 1.5rem;
+      }
+      .page-item-description {
+        font-size: 0.9rem;
+        margin-top: 0.1rem;
+      }
+  }
+
+  @media (min-width: 801px) and (max-width: 830px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+    .page-image {
+        height: 100vh;
+        width: 60rem;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width:  65vh;
+        font-size: 3px;
+    }
+      .page-item-header {
+        font-size: 1.5rem;
+      }
+      .page-item-description {
+        font-size: 0.9rem;
+        margin-top: 0.1rem;
+      }
+  }
+
+  
+  @media (min-width: 831px) and (max-width: 900px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+    .page-image {
+        height: 100vh;
+        width: 60rem;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width:  85vh;
+        font-size: 3px;
+    }
+      .page-item-header {
+        font-size: 1.5rem;
+      }
+      .page-item-description {
+        font-size: 0.9rem;
+        margin-top: 0.1rem;
+      }
+  }
+
+
+
+
+
+
+
+/* FİRST SCREEN */
+@media (min-width: 900px) {
+    .all-page {
+        visibility: hidden;
+    }
+  }
+
+
+
+
+
+
+
+
+/*WIDTH*/
+@media (min-width: 320px) and (max-width: 334px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 18rem;
+        font-size: 3px;
+    }
+
+      .page-item-header {
+        font-size: 0.9rem;
+      }
+      .page-item-description {
+        font-size: 0.6rem;
+      }
+  }
+
+@media (min-width: 335px) and (max-width: 349px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 19rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: -0.7rem;
+      }
+      .page-item-header {
+        font-size: 0.9rem;
+      }
+      .page-item-description {
+        font-size: 0.6rem;
+        margin-top: 0.1rem;
+      }
+  }
+
+@media (min-width: 350px) and (max-width: 364px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 20rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: -0.3rem;
+      }
+      .page-item-header {
+        font-size: 0.9rem;
+      }
+      .page-item-description {
+        font-size: 0.6rem;
+        margin-top: 0.1rem;
+      }
+
+  }
+  @media (min-width: 365px) and (max-width: 379px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 21rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+      .page-item-header {
+        font-size: 0.9rem;
+      }
+      .page-item-description {
+        font-size: 0.7rem;
+        margin-top: 0.1rem;
+      }
+  }
+
+  @media (min-width: 380px) and (max-width: 394px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 21.5rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: 0rem;
+      }
+  }
+
+  @media (min-width: 395px) and (max-width: 409px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 23rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+  }
+
+  @media (min-width: 410px) and (max-width: 424px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 24rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: 0.3rem;
+      }
+  }
+  @media (min-width: 425px) and (max-width: 440px) {
+    .all-log-screen {
+        margin-left: -0.3em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 24.7rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: -0.3rem;
+      }
+  }
+  @media (min-width: 441px) and (max-width: 460px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 26rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: -0.3rem;
+      }
+  }
+  @media (min-width: 460px) and (max-width: 480px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 27rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+  }
+
+  @media (min-width: 481px) and (max-width: 500px) {
+    .all-log-screen {
+        margin-left: -0.5em;
+    }
+
+    .sidebar {
+        width: 5rem;
+    }
+
+    .sidebar-icons {
+        width: 1.5rem;
+    }
+
+    .page-element {
+        width: 28.5rem;
+        font-size: 3px;
+    }
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+  }
+
+
+
+
+
+
+/* HEIGHT */
+
+  @media (min-height: 650px) and (max-height: 665px) {
+    .paddingy {
+        margin-top: -0.5rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 0.9rem;
+      }
+      .page-item-description {
+        font-size: 0.7rem;
+        margin-top: 0.1rem;
+      }
+  }
+  @media (min-height: 666px) and (max-height: 680px) {
+    .paddingy {
+        margin-top: -0.5rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 0.9rem;
+      }
+      .page-item-description {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 681px) and (max-height: 795px) {
+    .paddingy {
+        margin-top: -0.5rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 0.9rem;
+      }
+      .page-item-description {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 696px) and (max-height: 710px) {
+    .paddingy {
+        margin-top: -0.4rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 0.9rem;
+      }
+      .page-item-description {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 711px) and (max-height: 725px) {
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1rem;
+      }
+      .page-item-description {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 725px) and (max-height: 740px) {
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1rem;
+      }
+      .page-item-description {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 741px) and (max-height: 755px) {
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.1rem;
+      }
+      .page-item-description {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 756px) and (max-height: 775px) {
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.2rem;
+      }
+      .page-item-description {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 776px) and (max-height: 795px) {
+    .paddingy {
+        margin-top: -0.2rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.3rem;
+      }
+      .page-item-description {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 796px) and (max-height: 815px) {
+    .paddingy {
+        margin-top: -0.1rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.3rem;
+      }
+      .page-item-description {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 815px) and (max-height: 835px) {
+    .paddingy {
+        margin-top: -0.1rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.3rem;
+      }
+      .page-item-description {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 836px) and (max-height: 860px) {
+    .paddingy {
+        margin-top: -0.1rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.3rem;
+      }
+      .page-item-description {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 861px) and (max-height: 890px) {
+    .paddingy {
+        margin-top: 0rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.3rem;
+      }
+      .page-item-description {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 891px) and (max-height: 915px) {
+    .paddingy {
+        margin-top: 0rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.3rem;
+      }
+      .page-item-description {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+      }
+  }
+  @media (min-height: 915px) and (max-height: 950px) {
+    .paddingy {
+        margin-top: 0rem;
+      }
+      .page-element {
+        font-size: 0.5rem;
+      }
+      .page-item-header {
+        font-size: 1.3rem;
+      }
+      .page-item-description {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+      }
+  }
