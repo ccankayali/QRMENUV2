@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    },3000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <div className="position-fixed">
+    <div className="all-page position-fixed">
       {isLoading ? (
         <Loading />
       ) : (
