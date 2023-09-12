@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Design/Loading.css'
 import '../Design/App.css'
+import '../Design/Responsive.css'
 
 const Loading = () => {
   return (

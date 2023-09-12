@@ -222,7 +222,7 @@ export const categories = [
       ],
     },
     {
-      name: 'Kırmızı',
+      name: 'Kırmızı Et',
       sub_message: 'Çaylar ve Salatalar İkramımızdır',
       sub_category: null,
       image: 'https://iili.io/J9swqlI.webp',
@@ -326,7 +326,7 @@ export const categories = [
       ],
     },
     {
-      name: 'Beyaz',
+      name: 'Beyaz Et',
       sub_message: 'Çaylar ve Salatalar İkramımızdır',
       sub_category: null,
       image: 'https://iili.io/J9skSpt.webp',
@@ -390,7 +390,7 @@ export const categories = [
     //   ],
     // },
     {
-      name: 'Tatlı',
+      name: 'Tatlılar',
       sub_message: null,
       sub_category: ['Tatlı', 'Kampanyalar'],
       image:
@@ -500,7 +500,7 @@ export const categories = [
       ],
     },
     {
-      name: 'Sıcak',
+      name: 'Sıcak İçecekler',
       sub_message: null,
       sub_category: ['Sıcak İçecekler', 'Bitki Çayları'],
       image: 'https://iili.io/J9L9Ku9.webp',
@@ -563,7 +563,7 @@ export const categories = [
       ],
     },
     {
-      name: 'Soguk',
+      name: 'Soğuk İçecekler',
       sub_message: null,
       sub_category: null,
       image: 'https://iili.io/J9LJ3Xe.webp',

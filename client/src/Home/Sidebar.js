@@ -1,7 +1,11 @@
 import React from 'react'
-import 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 import '../Design/App.css'
+import '../Design/Responsive.css'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'react-bootstrap'
+
 import { Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlateWheat, faBurger, faPizzaSlice, faBowlFood, faMugSaucer, faFireBurner, faDrumstickBite, faBacon, faCakeCandles, faBeerMugEmpty, faMugHot, faCartShopping, faUserGear } from '@fortawesome/free-solid-svg-icons'
@@ -27,7 +31,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
         </li>
 
 
-        <li className="nav-item ">
+        <li className="nav-item paddingy ">
           <Button
             aria-current="page"
             data-bs-toggle="tooltip"
@@ -40,7 +44,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
             <FontAwesomeIcon icon={faPlateWheat} />
           </Button>
         </li>
-        <li>
+        <li className="nav-item paddingy ">
           <Button
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -52,7 +56,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
             <FontAwesomeIcon icon={faBurger} />
           </Button>
         </li>
-        <li>
+        <li className="nav-item paddingy ">
           <Button
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -66,7 +70,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
         </li>
 
 
-          <li>
+          <li className="nav-item paddingy ">
             <Button
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -79,7 +83,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
             </Button>
           </li>
 
-          <li>
+          <li className="nav-item paddingy ">
             <Button
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -90,7 +94,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
               <FontAwesomeIcon icon={faDrumstickBite} />
             </Button>
           </li>
-          <li>
+          <li className="nav-item paddingy ">
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -102,7 +106,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
               <FontAwesomeIcon icon={faBacon} />
             </Button>
           </li>
-          <li>
+          <li className="nav-item paddingy ">
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -113,7 +117,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
             <FontAwesomeIcon icon={faBowlFood} />
             </Button>
           </li>
-          <li>
+          <li className="nav-item paddingy ">
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -125,7 +129,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
               <FontAwesomeIcon icon={faCakeCandles} />            
             </Button>
           </li>
-          <li>
+          <li className="nav-item paddingy ">
             <Button
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -137,7 +141,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
               <FontAwesomeIcon icon={faMugSaucer} />
             </Button>
           </li>
-          <li>
+          <li className="nav-item paddingy ">
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -148,7 +152,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
               <FontAwesomeIcon icon={faMugHot} />
             </Button>
           </li>
-          <li>
+          <li className="nav-item paddingy ">
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -159,7 +163,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
               <FontAwesomeIcon icon={faBeerMugEmpty} />
             </Button>
           </li>
-          {/* <li>
+          {/* <li className="nav-item paddingy ">
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
@@ -171,7 +175,7 @@ const Sidebar = ( {changePage, currentPage} ) => {
               <FontAwesomeIcon icon={faCartShopping} />
             </Button>
           </li>
-          <li>
+          <li className="nav-item paddingy ">
             <Button 
             data-bs-toggle="tooltip"
             data-bs-placement="right"
